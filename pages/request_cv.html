@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request CV</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="request-cv">
+    <h2>Request My CV</h2>
+    <p>Please fill in the form below. I’ll review your request and send you my CV directly.</p>
+
+    <form action="https://formspree.io/f/mgvlpbak" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="company" placeholder="Company (optional)">
+      <textarea name="message" placeholder="Reason for request (optional)"></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+</body>
+</html>
