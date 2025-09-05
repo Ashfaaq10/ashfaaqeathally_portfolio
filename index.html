@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== Header / Navbar ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="static/profile_pictures/ngihtwing_logo.png" alt="Nightwing Logo" />
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Ashfaaq</span></h1>
+            <p>Software Engineer | Web Developer | Problem Solver</p>
+            <a href="pages/request_cv.html">
+                <button class="resume-btn">
+                    <span>Get CV</span>
+                </button>
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="static/profile_pictures/nightwing_profile.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Confident young student with a passion for learning and development.
+            Eager to leverage education and training in the software/web development 
+            space to support the growth and success of a high-performing organisation.
+            Strong track record of setting effective goals and leading teams to achieve 
+            those goals. Committed to continuous improvement and driving team success.
+        </p>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="static/skills_icons/html-5.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="static/skills_icons//css-3.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="static/skills_icons/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="static/skills_icons/c-sharp.png" alt="C#">
+                <p>C#</p>
+            </div>
+            <div class="skill">
+                <img src="static/skills_icons/sql-server.png" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div class="skill">
+                <img src="static/skills_icons/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="static/project_pictures/smartphone.png" alt="Project 1">
+                <h3>MOBILE HEAVEN</h3>
+                <p>E-Commerce Website with HTML,CSS,JS,PHP,SQL</p>
+                <a href="https://github.com/RoshanSRK/MobileHeaven" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="static/project_pictures/ai.png" alt="Project 2">
+                <h3>AIBody</h3>
+                <p>A python flask web app backed by ML model with Python,Django,Flask</p>
+                <a href="https://github.com/Ashfaaq10/flask-web-body-app" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="static/project_pictures/fight.png" alt="Project 2">
+                <h3>TEKWA</h3>
+                <p>A 2D platform fighting game with C#,Unity</p>
+                <a href="https://github.com/RoshanSRK/TEKWA" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/mvgbvnkb" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="socials">
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
